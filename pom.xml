@@ -4,13 +4,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.github</groupId>
+  <groupId>com.github.sinyat</groupId>
   <artifactId>sio-core</artifactId>
   <version>0.0.1-alpha</version>
 
   <name>sio-core</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/sinyat/sio-core</url>
   <packaging>jar</packaging>
 
   <properties>
@@ -26,6 +26,12 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>cn.hutool</groupId>
+      <artifactId>hutool-all</artifactId>
+      <version>4.0.10</version>
     </dependency>
   </dependencies>
 

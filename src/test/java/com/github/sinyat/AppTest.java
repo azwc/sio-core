@@ -1,4 +1,4 @@
-package com.github;
+package com.github.sinyat;
 
 import static org.junit.Assert.assertTrue;
 
